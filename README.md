@@ -7,6 +7,12 @@ This repository contains the front end source code for the course: "Laravel Back
 The main branch is the starting point for the course (the boilerplate code) and the solutions branch
 includes commits for each lesson.
 
+## Original Links
+
+- **Course**: [Laravel Backends for Vue.js 3](https://vueschool.io/courses/laravel-backends-for-vue-js-3)
+- **Original Repository**: [vueschool/laravel-backends-for-vuejs-3](https://github.com/vueschool/laravel-backends-for-vuejs-3)
+- **Example Lesson**: [Protect Pages with Middleware](https://vueschool.io/lessons/protect-pages-with-middleware)
+
 ## Setup
 
 Make sure to install the dependencies:
