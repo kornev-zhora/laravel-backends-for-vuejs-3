@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b7f80f6-ff21-4436-b5f3-d4b2f15b8f24" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="9b7f80f6-ff21-4436-b5f3-d4b2f15b8f24" name="Changes" comment="https://vueschool.io/lessons/protect-pages-with-middleware">
+      <change afterPath="$PROJECT_DIR$/composables/useAuth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/guest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/links/[id].vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/links/[id].vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/links/create.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/links/create.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/links/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/links/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/logout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/logout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/me.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/me.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/axiosPlugin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/axiosPlugin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,29 +32,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="local" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="36L1NuZxUw2YE3EVEhdPBqua8sS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/mnt/256-m2/projects/laravel-course-backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/mnt/256-m2/projects/vuejs-3-for-laravel&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/phpstorm/575/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -58,10 +73,34 @@
       <option name="presentableId" value="Default" />
       <updated>1764771000479</updated>
       <workItem from="1764771001724" duration="1643000" />
+      <workItem from="1764779242948" duration="3255000" />
+      <workItem from="1764829926676" duration="2071000" />
     </task>
+    <task id="LOCAL-00001" summary="🌱 Initial project setup — imported Laravel backend template&#10;&#10;- 📦 Copied base structure from vueschool/laravel-backends-for-vuejs-3&#10;- 🔧 Initialized backend configuration and environment files&#10;- 🗃️ Set up default routes, controllers, and boilerplate API structure&#10;- 🧹 Cleaned and adjusted directory layout for project start&#10;- 🚀 Project ready for further customization and integration">
+      <option name="closed" value="true" />
+      <created>1764779402537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764779402537</updated>
+    </task>
+    <task id="LOCAL-00002" summary="https://vueschool.io/lessons/protect-pages-with-middleware">
+      <option name="closed" value="true" />
+      <created>1764779503780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764779503780</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Initial project setup — imported Laravel backend template&#10;&#10;-  Copied base structure from vueschool/laravel-backends-for-vuejs-3&#10;-  Initialized backend configuration and environment files&#10;- ️ Set up default routes, controllers, and boilerplate API structure&#10;-  Cleaned and adjusted directory layout for project start&#10;-  Project ready for further customization and integration" />
+    <MESSAGE value="https://vueschool.io/lessons/protect-pages-with-middleware" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://vueschool.io/lessons/protect-pages-with-middleware" />
   </component>
 </project>

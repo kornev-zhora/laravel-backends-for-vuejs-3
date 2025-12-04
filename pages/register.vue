@@ -3,13 +3,9 @@ import axios from 'axios';
 
 definePageMeta({
   layout: "centered",
+  middleware: ["guest"],
 });
-interface RegisterPayload {
-  name: string;
-  email: string;
-  password: string;
-  password_confirmation: string;
-}
+
 
 const form = ref({
   name: "",
@@ -18,10 +14,8 @@ const form = ref({
   password_confirmation: "",
 });
 
-async function register(payload: RegisterPayload) {
-  await axios.post("/register/", payload);
-  useRouter().push('/me');
-}
+const {register} = useAuth();
+
 </script>
 <template>
   <div class="register">

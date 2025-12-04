@@ -1,4 +1,7 @@
 <script setup lang="ts">
+definePageMeta({
+  middleware: ["test", "auth"],
+});
 const links = [
   {
     short_link: "234jlsfsf",
