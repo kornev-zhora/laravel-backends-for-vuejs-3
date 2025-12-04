@@ -13,6 +13,18 @@ export default defineNuxtPlugin(async (nuxtApp) => {
         axios.defaults.headers.common["Content-Type"] = "application/json";
         axios.defaults.withCredentials = true;
 
+        axios.interceptors.response.use(
+            (response) => response,
+            (error) => {
+                if (error.response?.status === 401) {
+                    console.log("❌ Unauthorized, redirecting to login page");
+                    const {logout} = useAuth();
+                    logout();
+                }
+                return Promise.reject(error);
+            }
+        );
+
         try {
             await axios.get(`${config.public.appURL}/sanctum/csrf-cookie`);
             console.log("✅ CSRF cookie fetched, Axios ready for requests");

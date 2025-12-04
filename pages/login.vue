@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import axios from 'axios';
-import { useAuth } from '~~/composables/useAuth';
-
 definePageMeta({
   layout: "centered",
   middleware: ["guest"],
