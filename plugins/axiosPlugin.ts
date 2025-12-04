@@ -16,7 +16,9 @@ export default defineNuxtPlugin(async (nuxtApp) => {
         axios.interceptors.response.use(
             (response) => response,
             (error) => {
-                if (error.response?.status === 401) {
+                if (
+                    error.response?.status === 401 && !error.request.responseURL.endsWith("/api/user")
+                ) {
                     console.log("❌ Unauthorized, redirecting to login page");
                     const {logout} = useAuth();
                     logout();

@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b7f80f6-ff21-4436-b5f3-d4b2f15b8f24" name="Changes" comment="https://vueschool.io/lessons/use-axios-intereptors-to-redirect-to-login-page-on-401-unauthorized-response">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/links/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/links/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugins/axiosPlugin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/axiosPlugin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +61,7 @@
       <updated>1764771000479</updated>
       <workItem from="1764771001724" duration="1643000" />
       <workItem from="1764779242948" duration="3255000" />
-      <workItem from="1764829926676" duration="3500000" />
+      <workItem from="1764829926676" duration="3806000" />
     </task>
     <task id="LOCAL-00001" summary="🌱 Initial project setup — imported Laravel backend template&#10;&#10;- 📦 Copied base structure from vueschool/laravel-backends-for-vuejs-3&#10;- 🔧 Initialized backend configuration and environment files&#10;- 🗃️ Set up default routes, controllers, and boilerplate API structure&#10;- 🧹 Cleaned and adjusted directory layout for project start&#10;- 🚀 Project ready for further customization and integration">
       <option name="closed" value="true" />
@@ -90,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764832708757</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="https://vueschool.io/lessons/use-axios-intereptors-to-redirect-to-login-page-on-401-unauthorized-response">
+      <option name="closed" value="true" />
+      <created>1764834402146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764834402146</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
