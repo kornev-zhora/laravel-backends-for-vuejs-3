@@ -1,12 +1,7 @@
 export default defineNuxtRouteMiddleware(async (to, from) => {
-    const { user, initUser } = useAuth();
-    
-    try {
-        await initUser();
-    } catch (error) {
-        console.log('Error in guest middleware initUser:', error);
-    }
-    
+    const {user, initUser} = useAuth();
+
+    await initUser();
     if (user.value) {
         return navigateTo('/me');
     }

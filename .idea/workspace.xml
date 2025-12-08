@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b7f80f6-ff21-4436-b5f3-d4b2f15b8f24" name="Changes" comment="https://vueschool.io/lessons/use-axios-intereptors-to-redirect-to-login-page-on-401-unauthorized-response">
-      <change beforePath="$PROJECT_DIR$/plugins/axiosPlugin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/axiosPlugin.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composables/useAuth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/composables/useAuth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/guest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/guest.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,23 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/mnt/256-m2/projects/laravel-course-backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/snap/phpstorm/575/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/mnt/256-m2/projects/vuejs-3-for-laravel&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/phpstorm/575/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,7 +66,12 @@
       <updated>1764771000479</updated>
       <workItem from="1764771001724" duration="1643000" />
       <workItem from="1764779242948" duration="3255000" />
-      <workItem from="1764829926676" duration="3806000" />
+      <workItem from="1764829926676" duration="5912000" />
+      <workItem from="1764841839780" duration="1206000" />
+      <workItem from="1764877514254" duration="8000" />
+      <workItem from="1765180633932" duration="760000" />
+      <workItem from="1765193805177" duration="388000" />
+      <workItem from="1765194702530" duration="4552000" />
     </task>
     <task id="LOCAL-00001" summary="🌱 Initial project setup — imported Laravel backend template&#10;&#10;- 📦 Copied base structure from vueschool/laravel-backends-for-vuejs-3&#10;- 🔧 Initialized backend configuration and environment files&#10;- 🗃️ Set up default routes, controllers, and boilerplate API structure&#10;- 🧹 Cleaned and adjusted directory layout for project start&#10;- 🚀 Project ready for further customization and integration">
       <option name="closed" value="true" />
@@ -95,11 +105,30 @@
       <option name="project" value="LOCAL" />
       <updated>1764834402146</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="https://vueschool.io/lessons/use-axios-intereptors-to-redirect-to-login-page-on-401-unauthorized-response">
+      <option name="closed" value="true" />
+      <created>1764834526306</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764834526306</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Initial project setup — imported Laravel backend template&#10;&#10;-  Copied base structure from vueschool/laravel-backends-for-vuejs-3&#10;-  Initialized backend configuration and environment files&#10;- ️ Set up default routes, controllers, and boilerplate API structure&#10;-  Cleaned and adjusted directory layout for project start&#10;-  Project ready for further customization and integration" />
